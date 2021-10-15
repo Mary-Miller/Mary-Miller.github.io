@@ -43,7 +43,8 @@
                                                                                    Bobtown, CA 99999,<br>
                                                                                                   USA<br>
                                                                    <strong>Tel:</strong> 123-456-7890<br>
-                                            <strong>Email:</strong> no_reply@example.com </sender-column>   </p>
+                                           <strong>Email:</strong> no_reply@example.com  </sender-column>   
+    </p>
 
     <sender-column>
      <p>                                 <time datetime="2016-01-20">20 January 2016 </sender-column></p>
@@ -74,7 +75,7 @@
 
 <p>Please let me know if this is ok, and if so which start date you would prefer.</p>
 
-<p>You can find more information about <a href:"http://example">comimportant university dates</a> on our website.</p>
+<p>You can find more information about <a href:"http://example">important university dates</a> on our website.</p>
 
  <p>
   <h2>Subjects of study</h2> </p>
@@ -112,4 +113,5 @@
 
 Dr Eleanor Gaye </p>
 
-<p>University of Awesome motto: <q>"Be excellent to each other."</q>-- <em>The memoirs of Bill S Preston, <abbr title="Esq"> Esq </abbr> </em> </p>
+<p>University of Awesome motto: <q>Be excellent to each other.</q>-- <em>The memoirs of Bill S Preston, <abbr title="Esq"> Esq </abbr> </em> </p>
+
