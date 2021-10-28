@@ -4,20 +4,22 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="M Miller">
-    <title>Table template</title>
     <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
+  <body>
     <header>
       <h1>Planets Data</h1>
    </header>
-   <body>
-    <main> 
+   <main> 
       <table>
          <caption>
              Data about the planets of our solar system (Planetary facts taken from <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">Nasa's Planetary Fact Sheet - Metric</a>).
-          </caption>  
+          </caption>
+      <colgroup>
+        <col>
+      </colgroup>
           <thead>
-                <th colspan=2></th>
+                <th colspan="2"></th>
                 <th>Name</th>
                 <th>Mass (10<sup>24</sup>kg)</th>
                 <th>Diameter (km)</th>
@@ -31,7 +33,7 @@
                 <th>Image</th>
           </thead>
           <tbody>
-                <th colspan= 2 rowspan=4>Terrestrial planets</th>
+                <th colspan="2" rowspan="4">Terrestrial planets</th>
                 <th>Mercury</th>
                    <td>0.330 </td>
                    <td>4,879</td>
@@ -96,8 +98,8 @@
                    </td>
             </tr>
             <tr>
-             <th rowspan=4>Jovian planets</th>
-             <th rowspan=2>Gas giants</th>
+             <th rowspan="4">Jovian planets</th>
+             <th rowspan="2">Gas giants</th>
                 <th>Jupiter</th>
                    <td>1898</td>
                    <td>142,984</td>
@@ -130,7 +132,7 @@
                    </td>
             </tr>
             <tr>
-                 <th rowspan=2>Ice giants</th>
+                 <th rowspan="2">Ice giants</th>
                  <th>Uranus</th>
                    <td>86.8</td>
                    <td>51,118</td>
@@ -163,7 +165,7 @@
                    </td>
             </tr>
             <tr>
-              <th rowspan=2>Dwarf planets</th>
+              <th rowspan="2">Dwarf planets</th>
                  <th></th>
                  <th>Pluto</th>
                    <td>0.0146</td>
