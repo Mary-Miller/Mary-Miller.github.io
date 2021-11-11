@@ -21,7 +21,6 @@ html {
     font-size:16px;
 }
 
-
 /* Body & Main  */
 
 body {
@@ -42,18 +41,6 @@ main {
 
 /* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
 
-/* NO changes should be made to any of the code above. */
-
-/* The first heading style rule has been completed for you. Examine it carefully
-   to get an idea of some of the style properties you will need to use; then
-   complete the style code according to the instructions in Canvas. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-/* Headings  */
-
 h1 {
     text-transform: uppercase;
     font-size:6rem;
@@ -65,15 +52,61 @@ h1 {
     text-align:center;
 }
 
+h2  {
+    text-transform: ;
+    font-size:;
+    margin: ;
+    letter-spacing: ;
+    color:;
+    text-shadow:;
+    font-family:'';
+    text-align:;
+}
 
-/* Section & Paragraph */
+h3  { 
+    text-transform: ;
+    font-size:;
+    margin: ;
+    letter-spacing: ;
+    color:;
+    text-shadow:;
+    font-family:'';
+    text-align:;
+}
+
+h4  {
+    text-transform: ;
+    font-size:;
+    margin: ;
+    letter-spacing: ;
+    color:;
+    text-shadow:;
+    font-family:'';
+    text-align:;
+}
+
+h5  {
+    text-transform: ;
+    font-size:;
+    margin: ;
+    letter-spacing: ;
+    color:;
+    text-shadow:;
+    font-family:'';
+    text-align:;
+}
+
+section {}
+
+p {}
+
+img {}
+
+figure {}
+figcaption {}
+
+footer {}
 
 
-
-/* Image & Figure */
-
-
-
-/* Footer */
 
 
