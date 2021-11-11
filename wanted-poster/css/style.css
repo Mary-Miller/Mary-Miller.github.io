@@ -21,7 +21,6 @@ html {
     font-size:16px;
 }
 
-
 /* Body & Main  */
 
 body {
@@ -42,21 +41,9 @@ main {
 
 /* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
 
-/* NO changes should be made to any of the code above. */
-
-/* The first heading style rule has been completed for you. Examine it carefully
-   to get an idea of some of the style properties you will need to use; then
-   complete the style code according to the instructions in Canvas. */
-
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
-   may need to be different in order to style the page correctly. */
-
-
-/* Headings  */
-
 h1 {
     text-transform: uppercase;
-    font-size:6rem;
+    font-size:10rem;
     margin: 0;
     letter-spacing: .5rem;
     color:darkred;
@@ -65,15 +52,94 @@ h1 {
     text-align:center;
 }
 
+h2  {
+    text-transform: uppercase;
+    font-size:3rem;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: .25rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
 
-/* Section & Paragraph */
+h3  { 
+    text-transform: uppercase;
+    font-size:2rem;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    background-color: black;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h4  {
+    text-transform: uppercase;
+    font-size:2rem;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: .25rem;
+    padding-bottom: 1.125rem;
+    color:darkred;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+h5  {
+    text-transform: uppercase;
+    font-size:1rem;
+    font-weight: normal;
+    margin-top: .25rem;
+    margin: 0;
+    padding-.5rem;
+    letter-spacing: .5rem;
+    color:darkred;
+    background-color: #333;
+    foreground-color: #FFF;
+    text-shadow:.09375rem .09375rem .09375rem #000;
+    font-family:'Alfa Slab One', Garamond, serif;
+    text-align:center;
+}
+
+section {
+    margin-top: .5rem;
+}
+
+p {
+    margin:1rem;
+    margin: auto;
+    padding: 0;
+    padding: 1rem;
+    width: 90%;
+    text-align: left;
+}
+
+img {
+    src="/images/j-dawg.jpg"
+    alt="picture of cute little dog"
+    width: 100%;
+    margin: 0;
+    margin: auto; 
+    max-width: 50rem;
+}
+
+figure {
+    margin-bottom: 2rem;
+    padding-top: .5rem;
+    text-align: right;
+}
+figcaption {}
+
+footer {
+    width: 2rem;
+    style: solid;
+    color: #333;
+}
 
 
-
-/* Image & Figure */
-
-
-
-/* Footer */
 
 
