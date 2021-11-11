@@ -57,7 +57,7 @@ h2  {
     font-size:3rem;
     font-weight: normal;
     margin: 0;
-    letter-spacing: .25rem;
+    letter-spacing:.25rem;
     color:darkred;
     text-shadow:.09375rem .09375rem .09375rem #000;
     font-family:'Alfa Slab One', Garamond, serif;
@@ -70,7 +70,7 @@ h3  {
     font-weight: normal;
     margin: 0;
     letter-spacing: .5rem;
-    color: black;
+    foreground-color: black;
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
@@ -88,17 +88,15 @@ h4  {
     text-align:center;
 }
    
-h5 { 
-    text-transform: uppercase;
+h5 {
     font-size:1rem;
+    font-weight: normal;
     margin-top: .25rem;
     margin: 0;
     padding-.5rem;
     letter-spacing: .5rem;
     color: #FFF;
     background-color: #333;
-    text-shadow:.09375rem .09375rem .09375rem #000;
-    font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
 
