@@ -128,12 +128,6 @@ figcaption {
     padding-top: .5rem;
     text-align: rignt;
 }
-img {
-    width: 100%;
-    max-width: 50rem;
-    margin: 0;
-    margin: auto;    
-}
 
 footer {
     width: 2rem;
