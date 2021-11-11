@@ -132,8 +132,9 @@ figcaption {
     text-align: rignt;
 }
 
-footer {
-    width: 2rem;
+footer {and give it a top border with:
+    padding: 1rem;
+    border-top:2rem;
     style: solid;
     color: #333;
 }
