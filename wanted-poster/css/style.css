@@ -134,7 +134,11 @@ figure {
 }
 figcaption {}
 
-footer {}
+footer {
+    width: 2rem;
+    style: solid;
+    color: #333;
+}
 
 
 
