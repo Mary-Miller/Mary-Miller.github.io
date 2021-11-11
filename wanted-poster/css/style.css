@@ -119,10 +119,19 @@ p {
 }
 
 img {
-    src:"images/j-dawg.jpg" 
+    src:"/images/j-dawg.jpg"
+    alt: "picture of cute little dog"
+    width: 100%;
+    max width: 50rem;
+    margin: 0;
+    margin: auto;    
 }
 
-figure {}
+figure {
+    margin-bottom: 2rem;
+    padding-top: .5rem;
+    text-align: right;
+}
 figcaption {}
 
 footer {}
