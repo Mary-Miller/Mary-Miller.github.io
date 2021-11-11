@@ -119,10 +119,10 @@ p {
 }
 
 img {
-    width: 100%;
-    max-width: 50rem;
     margin: 0;
-    margin: auto;    
+    margin: auto; 
+    width: 100%;
+    max-width: 50rem;       
 }
 
 figure {
