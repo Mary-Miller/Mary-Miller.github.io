@@ -111,7 +111,8 @@ p {
 }
 
 img {
-    margin: 0 auto; 
+    margin: 0 auto;
+    display: block;
     width: 100%;
     max-width: 50rem;
 }
