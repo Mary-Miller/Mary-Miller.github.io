@@ -130,9 +130,14 @@ figcaption {
     text-align: rignt;
 }
 
-footer {   
+footer {
+
+a width of 32px, expressed in rem units
+a solid style and a color of #333. 
     padding: 1rem;
-    border-top: 2rem, solid, #333;
+    border-top: 2rem;
+    style: solid; 
+    color: #333;
 }
 
 
