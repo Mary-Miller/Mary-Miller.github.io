@@ -92,12 +92,10 @@ h4  {
 h5 {
     font-size:1rem;
     font-weight: normal;
-    margin-top: .25rem;
-    margin: 0;
+    margin-top: .25rem 0 0 0;
     padding-.5rem;
     color: #FFF;
     background-color: #333;
-    text-align:center;
 }
 
 section { T
