@@ -120,7 +120,7 @@ img {
 }
 
 figure {
-    margin: 0 0 2rem 0;
+    margin-bottom: 2rem;
 }
   
 figcaption {
