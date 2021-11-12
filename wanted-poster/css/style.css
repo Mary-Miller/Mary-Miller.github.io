@@ -118,7 +118,7 @@ img {
     margin: 0 auto; 
     width: 100%;
     max-width: 50rem;
-    align: center;    
+    text-align: center;    
 }
 
 figure {
@@ -133,8 +133,8 @@ figcaption {
 footer {
     padding: 1rem;
     border-top: 2rem;
-    style: solid; 
-    color: #333;
+    border-style: solid; 
+    border-color: #333;
 }
 
 
