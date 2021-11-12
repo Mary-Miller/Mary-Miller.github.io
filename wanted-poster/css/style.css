@@ -110,7 +110,7 @@ p {
     text-align: left;
 }
 
-img {
+img.scaled {
     margin: 0 auto;
     display: block;
     width: 100%;
