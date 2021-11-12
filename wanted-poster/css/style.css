@@ -110,15 +110,15 @@ p {
     text-align: left;
 }
 
-img {
+figure {
+    margin: 0 0 2rem 0;
+}
+
+figure > img {
     margin: 0 auto;
     display: block;
     width: 100%;
     max-width: 50rem;
-}
-
-figure {
-    margin: 0 0 2rem 0;
 }
   
 figcaption {
