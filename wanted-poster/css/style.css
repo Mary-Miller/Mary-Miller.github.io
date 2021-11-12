@@ -126,8 +126,8 @@ figure {
 }
   
 figcaption {
-    padding-top: .5rem;
-    text-align: rignt;
+    padding:.5rem 0 0 0;
+    text-align:rignt;
 }
 
 footer {
