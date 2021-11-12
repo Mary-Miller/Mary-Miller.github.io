@@ -99,12 +99,12 @@ h5 {
     text-align:center;
 }
 
-section {
-    margin:.5rem 0 0 0;
+section { T
+    margin:.5rem 0;
 }
 
 p { 
-    margin:1rem auto;
+    margin: 1rem auto;
     padding: 0 1rem;
     width: 90%;
     text-align: left;
@@ -112,15 +112,14 @@ p {
 
 img {
     display: block;
+    block-align: center;
     margin: 0 auto; 
-    block size: 100%;
+    width: 100%;
     max-width: 50rem;
 }
 
 figure {
-    margin: 0 2rem 0 0;
-    width: 100%;
-    float: center;
+    margin-bottom: 2rem;
 }
   
 figcaption {
