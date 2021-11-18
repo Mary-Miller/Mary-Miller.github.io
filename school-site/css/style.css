@@ -72,7 +72,7 @@ header, footer {
 
 /* Imported Typfaces */
 @font-face {
-    font-family: Montserrat, Arial, sans-serif;
+    font-family: Montserrat;
     src: url(../school-site/fonts/montserrat-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
@@ -83,13 +83,15 @@ header, footer {
     src: url(../school-site/fonts/montserrat-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal; 
-    letter-spacing:.125rem;
-
 }
 
 /* Typography Styles */
 html {
-    
+    font-family: Montserrat;    
+}
+h {
+    font-family: Josefinslab, Georgia, serif;
+    letter-spacing:.125rem;
 }
 
 h1 {
