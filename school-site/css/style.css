@@ -91,13 +91,23 @@ h1 {
     text-align: center; 
     }
 
-h2 {}
+h2 {
+    font-size: 1.5rem;
+    }
 
 h2 + p {}
 
-p {}
+p {
+    font-size: .125rem;
+    letter-spacing:.03125rem;
+    word-spacing:.125rem;
+    }
 
-li {}
+li {
+    font-size: .125rem;
+    letter-spacing: .03125rem;
+    word-spacing:.125rem;
+    }
 
 figcap {}
 
