@@ -82,17 +82,16 @@ header, footer {
     font-family:Josefinslab;
     src: url(../school-site/fonts/josefinslab-regular.ttf) format('truetype');
     font-weight:normal;
-    font-style:normal; 
+    font-style:normal;
+    letter-spacing:.125rem;
 }
 
 /* Typography Styles */
 html {
-    font-family: Montserrat, Arial, sans-serif;
-    
+    font-family: Montserrat, Arial, sans-serif;    
 }
 h {
-    font-family: Josefinslab, Georgia, serif;
-    letter-spacing:.125rem;
+    font-family: Josefinslab, Georgia, serif;   
 }
 
 h1 {
