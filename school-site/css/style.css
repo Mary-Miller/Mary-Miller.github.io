@@ -75,9 +75,21 @@ header, footer {
 @font-face {}
 
 /* Typography Styles */
-html {}
+html {
+    font-family:Montserrat, Arial, sans-serif;
+    src: url(..school-site/fonts/Montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+h {
+    font-family:Josefinslab, Georgia, serif;
+    letter-spacing:.125rem;
 
-h1 {}
+h1 {
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center; 
+    }
 
 h2 {}
 
@@ -90,13 +102,19 @@ li {}
 figcap {}
 
 /* Link Styling */
-a {}
+a {
+    outline:none
+}
 
 a:link,
-a:visited {}
+a:visited {
+    color: #33658A
+}
 
 a:focus,
-a: hover {}
+a: hover {
+    text-decoration: none
+}
 
 /* List Styling */
 ul {}
