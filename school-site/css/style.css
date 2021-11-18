@@ -111,7 +111,10 @@ li {
     word-spacing:.125rem;
     }
 
-figcap {}
+figcap {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+    }
 
 /* Link Styling */
 a {
