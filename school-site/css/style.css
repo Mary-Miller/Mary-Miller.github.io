@@ -87,7 +87,8 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family: Montserrat, Arial, sans-serif;    
+    font-family: Montserrat, Arial, sans-serif;
+    
 }
 h {
     font-family: Josefinslab, Georgia, serif;
@@ -109,13 +110,13 @@ h2 + p {
     }
 
 p {
-    font-size: .125rem;
+    font-size: .75rem;
     letter-spacing:.03125rem;
     word-spacing:.125rem;
     }
 
 li {
-    font-size: .125rem;
+    font-size: .75rem;
     letter-spacing: .03125rem;
     word-spacing:.125rem;
     }
