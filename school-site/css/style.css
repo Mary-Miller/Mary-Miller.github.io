@@ -141,7 +141,9 @@ ol{
    list-style-type: lowercase; 
     }
 
-.long-list a:hover {}
+.long-list a:hover {
+    transform: uppercase; 
+    }
 
 /* Navigation Menu */
 nav  {}
