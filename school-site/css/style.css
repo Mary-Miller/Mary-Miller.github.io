@@ -71,19 +71,26 @@ header, footer {
 /* ------ START WRITING YOUR CODE BELOW THIS LINE ------ */
 
 /* Imported Typfaces */
-@font-face {}
-@font-face {}
-
-/* Typography Styles */
-html {
-    font-family:Montserrat, Arial, sans-serif;
-    src: url(..school-site/fonts/Montserrat-regular.ttf) format('truetype');
+@font-face {
+    font-family: Montserrat, Arial, sans-serif;
+    src: url(../school-site/fonts/montserrat-regular.ttf) format('truetype');
     font-weight:normal;
     font-style:normal;
 }
-h {
-    font-family:Josefinslab, Georgia, serif;
+
+@font-face {
+    font-family: Josefinslab, Georgia, serif;
+    src: url(../school-site/fonts/montserrat-regular.ttf) format('truetype');
+    font-weight:normal;
+    font-style:normal; 
     letter-spacing:.125rem;
+
+}
+
+/* Typography Styles */
+html {
+    
+}
 
 h1 {
     font-size: 3.75rem;
