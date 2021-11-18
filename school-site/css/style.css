@@ -145,15 +145,38 @@ ol{
     transform: uppercase; 
     }
 
-/* Navigation Menu */
-nav  {}
-nav a  {}
+/* Navigation Menu */    
+nav  {
+    padding-left: 0;
+    margin-top: .25rem;    
+    }        
+        
+nav a  {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    outline: .0625rem solid #33568A;   
+    }
+    
 nav a:focus,
-nav a:hover  {}
-nav a:active {}
+nav a:hover  {
+    color:#FFF;
+    background: #33658A;  
+    }
+    
+nav a:active {
+    color: #FFF;
+    background: #000;
+    }
 
 /* Footer Styles */
-footer {}
+footer {
+    text-align: center;
+    }
 
 
 
