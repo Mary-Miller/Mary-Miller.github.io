@@ -86,13 +86,14 @@ header, footer {
 }
 
 /* Typography Styles */
+
 html {
     font-family: Montserrat, Arial, sans-serif;    
 }
 
 h1 {
     font-family: Josefinslab, Georgia, serif;
-    letter-spacing: .125rem;
+    letter-spacing:.125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center; 
