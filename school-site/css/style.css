@@ -90,11 +90,9 @@ header, footer {
 html {
     font-family: Montserrat, Arial, sans-serif;    
 }
-h {
-    font-family: Josefinslab, Georgia, serif;   
-}
 
 h1 {
+    font-family: Josefinslab, Georgia, serif;
     font-size: 3.75rem;
     margin: 1.125rem;
     text-align: center; 
