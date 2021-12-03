@@ -112,7 +112,7 @@ html {font-size:16px;
 }
 
 @font-face {
-    font-family:ultra-regular, sans-serif;
+    font-family:"ultra-regular", sans-serif;
     src: url("../fonts/serif/ultra-regular.ttf") format('truetype');
     font-weight:bold;
     font-style:normal;
@@ -135,11 +135,12 @@ header, footer {
 }
 
 h1 {
-    font-family:ultra-regular;
+    font-family:"ultra-regular";
     font-size: 6rem 
     margin: 0;
+    color:darkred;
     letter-spacing: .5rem;
-    text-align: center;
+    text-align:center;
     }
 
 section {
