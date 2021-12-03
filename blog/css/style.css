@@ -65,7 +65,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"montserrat-regular";
-    src: url("..fonts/sans-serif/montserrat-regular.ttf") format('truetype');
+    src: url("/fonts/sans-serif/montserrat-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -73,7 +73,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"lato-regular";
-    src: url(..fonts/sans-serif/lato-regular.ttf") format('truetype');
+    src: url(/fonts/sans-serif/lato-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -81,7 +81,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"opensans-regular";
-    src: url("..fonts/sans-serif/opensans-regular.ttf") format('truetype');
+    src: url("/fonts/sans-serif/opensans-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -89,7 +89,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"josefinslab-regular";
-    src: url("..fonts/serif/josefinslab-regular.ttf") format('truetype');
+    src: url("/fonts/serif/josefinslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -97,7 +97,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"robotoslab-regular";
-    src: url("..fonts/serif/robotoslab-regular.ttf") format('truetype');
+    src: url("/fonts/serif/robotoslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -105,7 +105,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"rozhaone-regular";
-    src: url("..fonts/serif/rozhaone-regular.ttf") format('truetype');
+    src: url("/fonts/serif/rozhaone-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -113,9 +113,10 @@ html {font-size:16px;
 
 @font-face {
     font-family:  "ultra-regular";
-    src: url("/fonts/serif/ultra-regular.ttf");
+    src: url("/fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
+    letter-spacing:.5rem;
 }
 
 body {
@@ -129,17 +130,11 @@ main {
     min-width:45rem;
 }
 
-header, footer {
-  border-top: .125rem solid #33658A;
-  border-bottom: .125rem solid #33658A;
-}
-
 h1 {
     font-family:"ultra-regular";
     font-size: 6rem 
     margin: 0;
-    color:red;
-    letter-spacing: .5rem;
+    color: black;
     text-align:center;
     }
 
@@ -149,7 +144,7 @@ section {
 }
 
 figure {
-    width:;2rem
+    width:30%;
     height: 3rem;
     margin:0 10% 0 0;
     float:left;
@@ -169,12 +164,12 @@ figcap {
 
 nav {
     float: left;
-    width:11.25rem;
+    width:20rem;
     font-size:3rem;
     font-family:"roboto-regular", sans-serif;  
     font-weight:bold;
     text-align: left;
-    word-spacing: 10rem;
+    word-spacing: 20rem;
 }
 
 footer {
