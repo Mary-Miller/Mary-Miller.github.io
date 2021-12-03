@@ -51,6 +51,13 @@
     box-sizing: border-box;
 }
 
+grid-container {
+      display: grid;
+      grid-template: 7.5rem/ auto;
+      columns:2;
+      grid-gap:.625rem;
+}
+
 html {font-size:16px;
       font-family:"roboto-regular", sans-serif;
 }
@@ -129,68 +136,54 @@ main {
     min-width:45rem;
 }
 
+section {
+    float: left;
+    width:75%;
+}
+
 h1 {
     font-family:"ultra-regular";
     font-size: 6rem 
     margin: 0;
     color: black;
     text-align:center;
-    }
-
-section {
-    float: left;
-    width:75%;
 }
 
-figure {
-    width:30%;
-    height: 3rem;
-    margin:0 10% 0 0;
-    float:left;
-    padding: .3125rem; 
-}
-
-figure img {
-    width:100%;
-    max-width:25rem;
-}
-
-figcap {
-    font-size: .75rem;
-    margin-bottom: 2rem;
-        margin:.375rem 0;
+svg {
+     height:.25rem;
+     width: 100%;
 }
 
 nav {
+    display: inline-block;
     float: left;
-    width:20rem;
+    width:100%;
     font-size:3rem;
     font-family:"roboto-regular", sans-serif;  
     font-weight:bold;
+    line-height: 3;
     text-align: left;
-    word-spacing: 20rem;
+    word-spacing: 10rem;
+    margin: auto;
 }
-
-footer {
-    clear: both;
-    margin-top:1.5rem;
-}
-
-article, aside, nav,footer {
-  padding: .5rem;
-  float: left;
-  width:75%;
-}          
+    
+nav a:focus,
+nav a:hover  {
+    color:#FFF  
+    }
+    
+nav a:active {
+    color: #FFF;
+    }
 
 h2 {
-    "lato-regular", sans-serif;
     font-size: 3rem;
+    font-weight: bold;
     margin: 1.125rem;
-    text-align: left; 
+    text-align: left;      
     }
 
 h3 {font-size:1rem;
-    font-family:"rozhaone-regular", serif;
     font-weight:bold;
     text-align: left;
 }
@@ -201,67 +194,28 @@ p {
     word-spacing:.125rem;
     }
 
-a {
-    outline: none;
+figure {
+    width:30%;
+    height: 4rem;
+    margin: auto;
+    float:left;
+    padding: .3125rem; 
 }
 
-a:link,
-a:visited {
-    color: #33658A;
+figure img {
+    width:100%;
 }
 
-a:focus,
-a: hover {
-    text-decoration: none;
+figcap {
+    font-size: .75rem;
+    margin:.375rem 0;
 }
-   
-nav  {
-    padding-left: 0;
-    margin-top: .25rem;    
-    }        
-        
-nav a  {
-    text-decoration: none;
-    display: inline-block;
-    width: 100%;
-    line-height: 3;
-    text-align: center;
-    font-size: 1.125rem;
-    margin-bottom: 1.5rem;
-    outline: .0625rem solid #33568A;   
-    }
-    
-nav a:focus,
-nav a:hover  {
-    color:#FFF;
-    background: #33658A;  
-    }
-    
-nav a:active {
-    color: #FFF;
-    background: #000;
-    }
 
 footer {
-    text-align: center;
-    }
-
-
-
-
-
-.grid-container {
-      display: grid;
-      grid-template: 120px/ auto, auto, auto;
-      columns:2;
-      grid-gap:.625rem;
-}
-
-svg {
-     height:.125rem;
-     width: 100%;
-}
-
+    clear: both;
+    text-align: left;
+    margin-top:1.5rem;
+}      
 
 
 
