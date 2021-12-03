@@ -100,6 +100,7 @@ nav {
     src: url(..blog/fonts/roboto-regular.ttf);      ;   
     font-weight:bold;
     text-align: left;
+    word-spacing: 2rem;
 }
 
 h2 {font-size:3rem;
