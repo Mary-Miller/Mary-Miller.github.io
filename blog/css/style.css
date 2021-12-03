@@ -136,7 +136,7 @@ header, footer {
 }
 
 h1 {
-    font: 7rem "roboto-regular", serif;
+    font: 7rem "roboto-regular", sans-serif;
     margin: 1.125rem;
     text-align: center;
     font-style:   ;
