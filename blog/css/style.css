@@ -47,50 +47,61 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-
-
 html {font-size:16px
+}
+
+* {
+    box-sizing: ;
+    box-border: none; 
+    float: left;
+}
+
+h1 {font-size:6rem;
+    font-family:"     ;  
+    src: 
+    font-style:   ;
+    font-weight:    ;
+    text-decoration:    ; 
+    text-align: center;
+    color:red;
+    text-transform:    ;
+}
+
+svg {weight:.125rem;
+     length: 100%;
+}
+
+nav {
+    font-size:3rem;
+    font-family:"roboto-regular", sans-serif;
+    src: url(..blog/fonts/roboto-regular.ttf);      ;   
+    font-weight:bold;
+    text-align: left;
 }
 
 body {font-size:1rem;
       font-family:"roboto-regular", sans-serif;
-      src: url(..blog/fonts/roboto-regular.ttf); 
-      format('truetype');
+      src: url(..blog/fonts/roboto-regular.ttf);
 }
 
- 
+h2 {font-size:3rem;
+    font-family:"roboto-regular", sans-serif;
+    src: url(..blog/fonts/roboto-regular.ttf);      ;   
+    text-align: left;
 }
 
- Spacing 
+h3 {font-size:1rem;
+    font-family:"roboto-regular", sans-serif;
+    src: url(..blog/fonts/roboto-regular.ttf);
+    font-weight:bold;
+    text-align: left;
+}
 
-            - padding (shorthand and/or specific properties like padding-bottom, etc.)
 
-            - margin, (shorthand and/or specific properties like margin-top, etc.)
 
-            - letter-spacing, word-spacing, line-height
 
-            - width, max-width, min-width
-            - height, max-height, min-height
 
-        
-        Box, Layout and Border 
 
-            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
-
-            - box-shadow
-
-            - display, float, align-items, align-content
-
-            - grid-template-columns, grid-column-gap
-
-            - transform
-
-        Other
-
-            - :nth()-child (to target specific child elements)
-
-            - :focus, :hover, :active (to target link states)
-
-            - @font-face or @import (to import typefaces)
+  
 
 
