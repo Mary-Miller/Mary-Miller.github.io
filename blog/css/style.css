@@ -57,7 +57,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"roboto-regular";
-    src: url("..fonts/roboto-regular.ttf") format('truetype');
+    src: url("..fonts/sans-serif/roboto-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -65,7 +65,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"montserrat-regular";
-    src: url("..fonts/montserrat-regular.ttf") format('truetype');
+    src: url("..fonts/sans-serif/montserrat-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -73,7 +73,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"lato-regular";
-    src: url(..fonts/lato-regular.ttf") format('truetype');
+    src: url(..fonts/sans-serif/lato-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -81,7 +81,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"opensans-regular";
-    src: url("..fonts/opensans-regular.ttf") format('truetype');
+    src: url("..fonts/sans-serif/opensans-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -89,7 +89,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"josefinslab-regular";
-    src: url("..fonts/josefinslab-regular.ttf") format('truetype');
+    src: url("..fonts/serif/josefinslab-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -97,7 +97,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"robotoslab-regular";
-    src: url("..fonts/robotoslab-regular.ttf") format('truetype');
+    src: url("..fonts/serif/robotoslab-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -105,7 +105,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"rozhaone-regular";
-    src: url("..fonts/rozhaone-regular.ttf") format('truetype');
+    src: url("..fonts/serif/rozhaone-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -113,7 +113,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"ultra-regular";
-    src: url("..fonts/ultra-regular.ttf") format('truetype');
+    src: url("..fonts/serif/ultra-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
