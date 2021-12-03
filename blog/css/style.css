@@ -67,13 +67,17 @@ body {margin: 1.5rem auto;
      padding:5px;
 }
 
-figure {width:30%;
+figure {width:100;
     margin:0 10% 0 0;
     float:left;
 }
 
-figure img {
-    width:33%;
+figure {
+    display:flex;
+    flex-flow: column;
+    padding: .3125rem; 
+    max-width: 13.75rem;
+    margin: auto;
 }
 
 article {
