@@ -51,7 +51,7 @@ html {font-size:16px
 }
 
 body {box-sizing: content-box;
-      box-width: %100
+      box-width: %75;
       box-border: none; 
       float: left;
       padding:5px ;
@@ -66,7 +66,7 @@ h1 {font-size:6rem;
     font-weight:    ;
     text-decoration:    ; 
     text-align: center;
-    color:red;
+    font-color:red;
     text-transform:    ;
 }
 
