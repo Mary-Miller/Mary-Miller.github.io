@@ -56,14 +56,24 @@ html {font-size:16px
 
 body {margin: 1.5rem auto;
      width:90%;
-     float: left;
      padding:5px;
 }
 
-grid-template {
-      columns:2;
-      gap:10px;
+main {
+    overflow:auto;
+    min-width:45rem; 
 }
+
+* grid-template {
+    columns:2;
+    gap:10px;
+}
+
+article {
+    float: left;
+    width:75%;
+}
+
 
 h1 {font-size:6rem;
     font-family:"     ;  
