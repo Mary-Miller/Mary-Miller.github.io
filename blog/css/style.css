@@ -130,14 +130,15 @@ main {
     min-width:45rem;
 }
 
-article {
+section {
     float: left;
     min-width: 22.5rem;
     width:75%;
 }
 
 figure {
-    width:30%;
+    width:;2rem
+    height: 3rem;
     margin:0 10% 0 0;
     float:left;
     padding: .3125rem; 
