@@ -57,23 +57,29 @@ html {font-size:16px
 body {margin: 1.5rem auto;
      width:90%;
      padding:5px;
+     font-size:1rem;
+     font-family:"roboto-regular", sans-serif;
+     src: url(..blog/fonts/roboto-regular.ttf);
 }
 
-main {
-    overflow:auto;
-    min-width:45rem; 
-}
-
-* grid-template {
+grid-template {
     columns:2;
     gap:10px;
+}
+
+figure {width:30%;
+    margin:0 10% 0 0;
+    float:left;
+}
+
+figure img {
+    width:33%;
 }
 
 article {
     float: left;
     width:75%;
 }
-
 
 h1 {font-size:6rem;
     font-family:"     ;  
@@ -97,11 +103,6 @@ nav {
     src: url(..blog/fonts/roboto-regular.ttf);      ;   
     font-weight:bold;
     text-align: left;
-}
-
-body {font-size:1rem;
-      font-family:"roboto-regular", sans-serif;
-      src: url(..blog/fonts/roboto-regular.ttf);
 }
 
 h2 {font-size:3rem;
