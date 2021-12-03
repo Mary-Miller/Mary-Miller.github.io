@@ -112,8 +112,8 @@ html {font-size:16px;
 }
 
 @font-face {
-    font-family:"ultra-regular", sans-serif;
-    src: url("../fonts/serif/ultra-regular.ttf") format('truetype');
+    font-family:  "ultra-regular";
+    src: url("/fonts/serif/ultra-regular.ttf");
     font-weight:bold;
     font-style:normal;
 }
@@ -138,14 +138,13 @@ h1 {
     font-family:"ultra-regular";
     font-size: 6rem 
     margin: 0;
-    color:darkred;
+    color:red;
     letter-spacing: .5rem;
     text-align:center;
     }
 
 section {
     float: left;
-    min-width: 22.5rem;
     width:75%;
 }
 
