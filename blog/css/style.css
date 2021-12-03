@@ -67,8 +67,9 @@ h1 {font-size:6rem;
     text-transform:    ;
 }
 
-svg {weight:.125rem;
-     length: 100%;
+svg {
+     height:.125rem;
+     width: 100%;
 }
 
 nav {
