@@ -50,9 +50,11 @@
 html {font-size:16px
 }
 
-body {box-sizing: content-box;
-      box-width: %100;
-      box-border: none; 
+* {
+    box-sizing:content-box;    
+}
+
+body {
       float: left;
       padding:5px ;
 }
