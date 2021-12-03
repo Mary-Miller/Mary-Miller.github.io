@@ -50,18 +50,13 @@
 
 
 html {font-size:16px
-      }
-      
-              
-             font-family: 
-             font-style:
-             font-weight:
+}
 
-            - text-decoration, text-align
-
-            - color
-
-            - text-shadow, text-transform
+body {font-size:1rem;
+      font-family:"roboto-regular", sans-serif;
+      src: url(..blog/fonts/roboto-regular.ttf); 
+      format('truetype');
+}
 
  
 }
