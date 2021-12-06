@@ -91,7 +91,6 @@ html {font-size:16px;
     src: url("/fonts/sans-serif/opensans-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
-    letter-spacing:.125rem;
 }
 
 @font-face {
@@ -99,7 +98,6 @@ html {font-size:16px;
     src: url("/fonts/serif/josefinslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
-    letter-spacing:.125rem;
 }
 
 @font-face {
@@ -107,7 +105,6 @@ html {font-size:16px;
     src: url("/fonts/serif/robotoslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
-    letter-spacing:.125rem;
 }
 
 @font-face {
@@ -119,26 +116,27 @@ html {font-size:16px;
 }
 
 @font-face {
-    font-family:  "ultra-regular";
-    src: url("/fonts/serif/ultra-regular.ttf") format("truetype");
+    font-family: "ultra-regular";
+    src: url("../fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
     letter-spacing:.5rem;
 }
 
 body {
-    margin: 1.5rem auto;
-    width:75%;
+     margin:1.5rem;
+     letter-spacing:.125rem;
+     width: 100%;
 }
 
 main {
     overflow:auto;
     min-width:45rem;
+    float:left;
+    width: 75%;
 }
 
 section {
-    float: left;
-    width:75%;
 }
 
 h1 {
@@ -149,11 +147,6 @@ h1 {
     text-align:center;
 }
 
-svg {
-     height:.25rem;
-     width: 100%;
-}
-
 nav {
     display: inline-block;
     float: left;
@@ -161,9 +154,9 @@ nav {
     font-size:3rem;
     font-family:"roboto-regular", sans-serif;  
     font-weight:bold;
-    line-height: 3;
+    line-height: 4;
     text-align: left;
-    word-spacing: 10rem;
+    word-spacing: 30rem;
     margin: auto;
 }
     
