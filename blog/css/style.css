@@ -131,7 +131,6 @@ body {
 
 main {
     overflow:auto;
-    min-width:45rem;
     float:left;
     width: 75%;
 }
