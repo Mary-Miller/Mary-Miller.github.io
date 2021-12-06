@@ -117,7 +117,7 @@ html {font-size:16px;
 
 @font-face {
     font-family: "ultra-regular";
-    src: url("./fonts/serif/ultra-regular.ttf") format("truetype");
+    src: url("../blog/fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
     letter-spacing:.5rem;
