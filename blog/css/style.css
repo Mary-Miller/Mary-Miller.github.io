@@ -109,7 +109,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"rozhaone-regular";
-    src: url("/fonts/serif/rozhaone-regular.ttf") format("truetype");
+    src: url("./fonts/serif/rozhaone-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -117,7 +117,7 @@ html {font-size:16px;
 
 @font-face {
     font-family: "ultra-regular";
-    src: url("..fonts/serif/ultra-regular.ttf") format("truetype");
+    src: url("./fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
     letter-spacing:.5rem;
