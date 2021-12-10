@@ -51,21 +51,19 @@ html {font-size:16px;
       font-family:"roboto-regular", sans-serif;
 }
 
-body {
-     margin:1.5rem;
-     letter-spacing:.125rem;
-     width: 100%;
+main {
+    overflow:auto;
+    float:left;
 }
 
 grid-container {
       display: grid;
       grid-template-rows: 3;
       grid-template-columns:2;
-      grid-columns: 1fr;
       grid-gap:.625rem;
 }
 
-header {grid-column: 2/2;
+header {grid-column: 100%;
         grid-row: 1;
 }
 
@@ -85,7 +83,7 @@ nav {
 
 @font-face {
     font-family:"roboto-regular";
-    src: url("../blog/fonts/sans-serif/roboto-regular.ttf") format("truetype");
+    src: url("../fonts/sans-serif/roboto-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -93,7 +91,7 @@ nav {
 
 @font-face {
     font-family:"montserrat-regular";
-    src: url("/fonts/sans-serif/montserrat-regular.ttf") format("truetype");
+    src: url("../fonts/sans-serif/montserrat-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -101,7 +99,7 @@ nav {
 
 @font-face {
     font-family:"lato-regular";
-    src: url(/fonts/sans-serif/lato-regular.ttf") format("truetype");
+    src: url(../fonts/sans-serif/lato-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -109,21 +107,21 @@ nav {
 
 @font-face {
     font-family:"opensans-regular";
-    src: url("/fonts/sans-serif/opensans-regular.ttf") format("truetype");
+    src: url("../fonts/sans-serif/opensans-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
     font-family:"josefinslab-regular";
-    src: url("/fonts/serif/josefinslab-regular.ttf") format("truetype");
+    src: url("../fonts/serif/josefinslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
 }
 
 @font-face {
     font-family:"robotoslab-regular";
-    src: url("/fonts/serif/robotoslab-regular.ttf") format("truetype");
+    src: url("../fonts/serif/robotoslab-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
 }
@@ -138,50 +136,41 @@ nav {
 
 @font-face {
     font-family:"ultra-regular";
-    src: url("../blog/fonts/serif/ultra-regular.ttf") format("truetype");
+    src: url("../fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
     letter-spacing:.5rem;
 }
 
-
-
-main {
-    overflow:auto;
-    float:left;
-    width: 75%;
-}
-
-section {
-}
-
 h1 {
-    font-family:"roboto-regular";
+    font-family:"ultra-regular";
     font-size: 6rem 
     margin: 0;
     color: black;
     text-align:center;
 }
-
-
     
-nav a:focus,
+nav a:focus {
+      color:blue;
+}
 nav a:hover  {
-    color:#FFF  
-    }
-    
+    color:red;  
+    }    
 nav a:active {
-    color: #FFF;
+    color:purple;
     }
 
 h2 {
+    font-family: "rozhaone-regular";
     font-size: 3rem;
     font-weight: bold;
     margin: 1.125rem;
     text-align: left;      
     }
 
-h3 {font-size:1rem;
+h3 {
+    font-family:"robotoslab-regular"
+    font-size:1rem;
     font-weight:bold;
     text-align: left;
 }
