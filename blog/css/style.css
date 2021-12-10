@@ -72,7 +72,7 @@ html {font-size:16px;
 }
 
 @font-face {
-    font-family:roboto-regular, serif;
+    font-family:roboto-regular;
     src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
     font-weight:normal;
     font-style:normal;
@@ -92,10 +92,10 @@ body {
 }
 
 h1 {
-    font-family: ultra-regular, serif;
+    font-familyultra-regular, sans-serif;
     font-size:6rem;
     margin: 0;
-    letter-spacing: .5rem;
+    letter-spacing:.5rem;
     color:darkred;
     text-align:center;
 }
