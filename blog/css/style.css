@@ -46,110 +46,75 @@
         */
 
 
-/* ------ START WRITING YOUR CODE BELOW ------ */
+/* ------ START WRITING YOUR CODE BELOW 
+@font-face 
+    font-family:"opensans-regular";
+    src: url("../fonts/sans-serif/opensans-regular.ttf") format("truetype");
+@font-face {
+    font-family:"josefinslab-regular";
+    src: url("../fonts/serif/josefinslab-regular.ttf") format("truetype");
+@font-face {
+    font-family:"robotoslab-regular";
+    src: url("../fonts/serif/robotoslab-regular.ttf") format("truetype");
+@font-face {
+    font-family:"rozhaone-regular";
+    src: url("../fonts/serif/rozhaone-regular.ttf") format("truetype");
+------ */
+
 html {font-size:16px;
-      font-family:"roboto-regular", sans-serif;
 }
 
-main {
+@font-face {
+    font-family:ultra-regular;
+    src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
+    font-weight:bold;
+    font-style:normal;
+}
+
+@font-face {
+    font-family:roboto-regular, serif;
+    src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
+    font-weight:normal;
+    font-style:normal;
+}
+   
+main { 
     overflow:auto;
     float:left;
 }
 
-grid-container {
-      display: grid;
-      grid-template-rows: 3;
-      grid-template-columns:2;
-      grid-gap:.625rem;
+body {
+    font-family:roboto-regular, sans-serif;
+    font-size:1rem;
+    padding:1rem;
+    min-width:39rem;
+    max-width:50rem;
+    margin:0 auto;
 }
 
-header {grid-column: 100%;
-        grid-row: 1;
+h1 {
+    font-family: ultra-regular, sans-serif;
+    font-size:6rem;
+    margin: 0;
+    letter-spacing: .5rem;
+    color:darkred;
+    text-align:center;
 }
 
 nav {
-    grid-row: 1;
     display: inline-block;
     float: left;
     width:100%;
     font-size:3rem;
-    font-family:"roboto-regular", sans-serif;  
+    font-family:roboto-regular, serif;  
     font-weight:bold;
     line-height: 4;
     text-align: left;
     word-spacing: 30rem;
+    color: blue;
     margin: auto;
 }
 
-@font-face {
-    font-family:"roboto-regular";
-    src: url("../fonts/sans-serif/roboto-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-    letter-spacing:.125rem;
-}
-
-@font-face {
-    font-family:"montserrat-regular";
-    src: url("../fonts/sans-serif/montserrat-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-    letter-spacing:.125rem;
-}
-
-@font-face {
-    font-family:"lato-regular";
-    src: url(../fonts/sans-serif/lato-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-    letter-spacing:.125rem;
-}
-
-@font-face {
-    font-family:"opensans-regular";
-    src: url("../fonts/sans-serif/opensans-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:"josefinslab-regular";
-    src: url("../fonts/serif/josefinslab-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:"robotoslab-regular";
-    src: url("../fonts/serif/robotoslab-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:"rozhaone-regular";
-    src: url("../fonts/serif/rozhaone-regular.ttf") format("truetype");
-    font-weight:normal;
-    font-style:normal;
-    letter-spacing:.125rem;
-}
-
-@font-face {
-    font-family:"ultra-regular";
-    src: url("../fonts/serif/ultra-regular.ttf") format("truetype");
-    font-weight:bold;
-    font-style:normal;
-    letter-spacing:.5rem;
-}
-
-h1 {
-    font-family:"ultra-regular";
-    font-size: 6rem 
-    margin: 0;
-    color: black;
-    text-align:center;
-}
-    
 nav a:focus {
       color:blue;
 }
@@ -161,48 +126,70 @@ nav a:active {
     }
 
 h2 {
-    font-family: "rozhaone-regular";
+    font-family: rozhaone-regular;
     font-size: 3rem;
     font-weight: bold;
     margin: 1.125rem;
     text-align: left;      
     }
 
-h3 {
-    font-family:"robotoslab-regular"
-    font-size:1rem;
-    font-weight:bold;
-    text-align: left;
+h3  {
+    font-size:2rem;
+    font-weight: normal;
+    margin: 0;
+    letter-spacing: .5rem;
+    foreground-color: black;
+    font-family:roboto-regular, serif;
+    text-align:left;
 }
 
-p {
-    font-size: .75rem;
+section {
+    margin:.5rem 0; 
+}
+
+p { 
+    margin: 1rem auto;
+    padding: 0 1rem;
+    width: 75%;
+    text-align: left;
     letter-spacing:.03125rem;
     word-spacing:.125rem;
-    }
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 50rem;
+}
 
 figure {
     width:30%;
     height: 4rem;
     margin: auto;
     float:left;
-    padding: .3125rem; 
+    padding: .3125rem;     
+    margin-bottom: 2rem;
+}
+  
+figcaption {
+    font-size: .75rem;
+    margin:.375rem 0;    
+    padding:.5rem 0 0 0;
+    text-align: left;
 }
 
 figure img {
     width:100%;
 }
 
-figcap {
-    font-size: .75rem;
-    margin:.375rem 0;
-}
-
 footer {
+    padding: 1rem;
     clear: both;
     text-align: left;
     margin-top:1.5rem;
-}      
+}
+   
 
 
 
