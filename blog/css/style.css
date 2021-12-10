@@ -47,24 +47,45 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-* {
-    box-sizing: border-box;
-}
-
-grid-container {
-      display: grid;
-      grid-template: 7.5rem/ auto;
-      columns:2;
-      grid-gap:.625rem;
-}
-
 html {font-size:16px;
       font-family:"roboto-regular", sans-serif;
 }
 
+body {
+     margin:1.5rem;
+     letter-spacing:.125rem;
+     width: 100%;
+}
+
+grid-container {
+      display: grid;
+      grid-template-rows: 3;
+      grid-template-columns:2;
+      grid-columns: 1fr;
+      grid-gap:.625rem;
+}
+
+header {grid-column: 2/2;
+        grid-row: 1;
+}
+
+nav {
+    grid-row: 1;
+    display: inline-block;
+    float: left;
+    width:100%;
+    font-size:3rem;
+    font-family:"roboto-regular", sans-serif;  
+    font-weight:bold;
+    line-height: 4;
+    text-align: left;
+    word-spacing: 30rem;
+    margin: auto;
+}
+
 @font-face {
     font-family:"roboto-regular";
-    src: url("..blog/fonts/sans-serif/roboto-regular.ttf") format("truetype");
+    src: url("../blog/fonts/sans-serif/roboto-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -109,7 +130,7 @@ html {font-size:16px;
 
 @font-face {
     font-family:"rozhaone-regular";
-    src: url("./fonts/serif/rozhaone-regular.ttf") format("truetype");
+    src: url("../fonts/serif/rozhaone-regular.ttf") format("truetype");
     font-weight:normal;
     font-style:normal;
     letter-spacing:.125rem;
@@ -117,17 +138,13 @@ html {font-size:16px;
 
 @font-face {
     font-family:"ultra-regular";
-    src: url("..blog/fonts/serif/ultra-regular.ttf") format("truetype");
+    src: url("../blog/fonts/serif/ultra-regular.ttf") format("truetype");
     font-weight:bold;
     font-style:normal;
     letter-spacing:.5rem;
 }
 
-body {
-     margin:1.5rem;
-     letter-spacing:.125rem;
-     width: 100%;
-}
+
 
 main {
     overflow:auto;
@@ -146,18 +163,7 @@ h1 {
     text-align:center;
 }
 
-nav {
-    display: inline-block;
-    float: left;
-    width:100%;
-    font-size:3rem;
-    font-family:"roboto-regular", sans-serif;  
-    font-weight:bold;
-    line-height: 4;
-    text-align: left;
-    word-spacing: 30rem;
-    margin: auto;
-}
+
     
 nav a:focus,
 nav a:hover  {
