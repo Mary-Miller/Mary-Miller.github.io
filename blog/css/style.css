@@ -47,150 +47,121 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW 
-@font-face 
-    font-family:"opensans-regular";
-    src: url("../fonts/sans-serif/opensans-regular.ttf") format("truetype");
-@font-face {
-    font-family:"josefinslab-regular";
-    src: url("../fonts/serif/josefinslab-regular.ttf") format("truetype");
-@font-face {
-    font-family:"robotoslab-regular";
-    src: url("../fonts/serif/robotoslab-regular.ttf") format("truetype");
-@font-face {
-    font-family:"rozhaone-regular";
-    src: url("../fonts/serif/rozhaone-regular.ttf") format("truetype");
------- */
-
+   
 html {font-size:16px;
+     font-family: roboto-regular, sans-serif;    
 }
 
 @font-face {
-    font-family:ultra-regular;
-    src: url(../fonts/serif/ultra-regular.ttf) format("truetype");
-    font-weight:bold;
-    font-style:normal;
-}
-
-@font-face {
-    font-family:roboto-regular;
-    src: url(../fonts/sans-serif/roboto-regular.ttf) format("truetype");
+    font-family:roboto;
+    src: url("../roboto-regular.ttf") format('truetype');
     font-weight:normal;
     font-style:normal;
 }
-   
-main { 
-    float:left;
+
+@font-face {
+    font-family:ultra;
+    src: url("../ultra-regular.ttf") format('truetype');
+    font-weight:normal;
+    font-style:normal;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    font-family:roboto-regular, sans-serif;
-    font-size:1rem;
-    padding:1rem;
-    min-width:39rem;
-    max-width:50rem;
-    margin:0 auto;
+    margin: 1.5rem auto;
+    width:90%;
+    min-width:56.25rem;
+}
+
+main {
+    overflow:auto;
+    min-width:45rem;
+}
+
+section, aside, nav, footer {
+  padding: .5rem;
+}
+
+header, footer {
+  border-top: .125rem solid #33658A;
+  border-bottom: .125rem solid #33658A;
 }
 
 h1 {
-    font-familyultra-regular, sans-serif;
-    font-size:6rem;
-    margin: 0;
-    letter-spacing:.5rem;
-    color:darkred;
-    text-align:center;
-}
+    font-family: ultra, sans-serif;
+    letter-spacing:.125rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    text-align: center; 
+    }
 
 nav {
-    display: inline-block;
+    letter-spacing:.125rem;
+    font-size: 1.5rem;
     float: left;
-    width:100%;
-    font-size:3rem;
-    font-family:roboto-regular, serif;  
-    font-weight:bold;
-    line-height: 4;
-    text-align: left;
-    word-spacing: 30rem;
-    color: blue;
-    margin: auto;
+    widpadding-left: 0;
+    margin-top: .25rem;
+    margin-bottom: 1.5rem; 
+}      
+        
+nav a  {
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
 }
-
-nav a:focus {
-      color:blue;
-}
+    
+nav a:focus,
 nav a:hover  {
-    color:red;  
-    }    
+    color:#FFF;
+    background: #33658A;  
+    }
+    
 nav a:active {
-    color:purple;
+    color: #FFF;
+    background: #000;
     }
 
-h2 {
-    font-family: rozhaone-regular;
-    font-size: 3rem;
-    font-weight: bold;
-    margin: 1.125rem;
-    text-align: left;      
-    }
-
-h3  {
-    font-size:2rem;
-    font-weight: normal;
-    margin: 0;
-    letter-spacing: .5rem;
-    foreground-color: black;
-    font-family:roboto-regular, serif;
-    text-align:left;
+nav a:visited {
+    color: #33658A;
 }
 
 section {
-    margin:.5rem 0; 
-}
-
-p { 
-    margin: 1rem auto;
-    padding: 0 1rem;
-    width: 75%;
-    text-align: left;
-    letter-spacing:.03125rem;
-    word-spacing:.125rem;
-}
-
-img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 50rem;
+    float: left;
+    min-width: 22.5rem;
+    width:50%;
 }
 
 figure {
     width:30%;
-    height: 4rem;
-    margin: auto;
+    margin:0 10% 0 0;
     float:left;
-    padding: .3125rem;     
-    margin-bottom: 2rem;
-}
-  
-figcaption {
-    font-size: .75rem;
-    margin:.375rem 0;    
-    padding:.5rem 0 0 0;
-    text-align: left;
 }
 
 figure img {
     width:100%;
+    max-width:25rem;
 }
+
+figcaption {
+    font-size: .75rem;
+    margin:.375rem 0;
+}
+
+p {
+    font-size: 1rem;
+    letter-spacing:.03125rem;
+    word-spacing:.125rem;
+    }
 
 footer {
-    padding: 1rem;
     clear: both;
-    text-align: left;
     margin-top:1.5rem;
 }
-   
-
-
 
 
   
