@@ -79,7 +79,6 @@ html {font-size:16px;
 }
    
 main { 
-    overflow:auto;
     float:left;
 }
 
@@ -93,7 +92,7 @@ body {
 }
 
 h1 {
-    font-family: ultra-regular, sans-serif;
+    font-family: ultra-regular, serif;
     font-size:6rem;
     margin: 0;
     letter-spacing: .5rem;
